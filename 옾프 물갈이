@@ -7,6 +7,6 @@ if (chat.text == ".물갈이") {
           }
         }
         chat.replyText(
-          "[ RESULT ] 인원: " + arr.length + allsee_1 + "\n" + arr.join("\n")
+          "[ RESULT ] 인원: " + arr.length + allsee_1 + "\n" + arr.join("\n") //멘션이나 강퇴로 응용 가능
         );
       }
