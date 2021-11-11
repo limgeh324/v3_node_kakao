@@ -6,7 +6,7 @@ if (chat.text.startsWith(".핑퐁")) {
           var res = JSON.parse(html);
           res.response.replies.forEach(function (x) {
             if (x.type == "text") {
-              chat.replyText(x.text);
+              chat.replyText(x.reply.toString());
             }
           });
         });
